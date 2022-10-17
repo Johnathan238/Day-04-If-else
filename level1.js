@@ -18,3 +18,9 @@
 // } else if ( yourAge < myAge){
 //   console.log(`You are ${myAge - yourAge} years away`)
 // }
+
+
+const a = 4 
+const b = 3
+
+const aORb = a >= b ? console.log(`${a} is greater than ${b}`) : console.log(`${a} is greater than ${b}`)
