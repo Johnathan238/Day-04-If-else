@@ -1,5 +1,5 @@
 // function allStudentsGrades(val){
-// const whatGrade = ""
+// let whatGrade = ""
 // switch(val){
 //     case "A":
 //         whatGrade = "A"
@@ -32,31 +32,25 @@
 
 // allStudentsGrades("C")
 
-function checkSeasons(val){
-    const whatSeason = prompt("What Season is it?:")
-    switch(val){
-        case "Autumn":
-            whatSeason = "Autumn"
-            alert(` September, October or November, the season is ${whatSeason}.`)
-            break
+let whatSeason = prompt("What Season is it?:")
+switch(whatSeason){
+    case "Autumn":
+        whatSeason = "Autumn"
+        alert(` September, October or November, the season is ${whatSeason}.`)
+        break
 
-        case "Winter":
-            whatSeason = "Winter"
-            alert(`December, January or February, the season is ${whatSeason}.`)
-            break
+    case "Winter":
+        whatSeason = "Winter"
+        alert(`December, January or February, the season is ${whatSeason}.`)
+        break
 
-        case "Spring":
-            whatSeason = "Spring"
-            alert(`March, April or May, the season is ${whatSeason}.`)
-            break
+    case "Spring":
+        whatSeason = "Spring"
+        alert(`March, April or May, the season is ${whatSeason}.`)
+        break
 
-        case "Summer":
-            whatSeason = "Summer"
-            alert(`une, July or August, the season is ${whatSeason}.`)
-            break
-    }
-
-    return whatSeason
+    case "Summer":
+        whatSeason = "Summer"
+        alert(`une, July or August, the season is ${whatSeason}.`)
+        break
 }
-
-checkSeasons()
