@@ -20,7 +20,11 @@
 // }
 
 
-const a = 4 
-const b = 3
+// const a = 4 
+// const b = 3
 
-const aORb = a >= b ? console.log(`${a} is greater than ${b}`) : console.log(`${a} is greater than ${b}`)
+// const aORb = a >= b ? console.log(`${a} is greater than ${b}`) : console.log(`${a} is greater than ${b}`)
+
+const num = Number(prompt("Enter number:"))
+
+const oddOrEven = num % 2 === 0 ? alert(`${num} is an even number`) : alert(`${num} is an odd number`)
