@@ -82,22 +82,15 @@
     let isWeekendOrWeekday = prompt("What day is today?")
     switch(isWeekendOrWeekday){
         case "Monday":
-            isWeekendOrWeekday = "Monday"
-            case "Tuesday":
-                isWeekendOrWeekday = "Tuesday"
-                case "Wednesday":
-                    isWeekendOrWeekday = "Wednesday"
-                    case "Thursday":
-                        isWeekendOrWeekday = "Thursday"
-                        case "Friday":
-                            isWeekendOrWeekday = "Friday"
-                            alert(`${isWeekendOrWeekday} is a weekday!`)
-                            break
+        case "Tuesday":
+        case "Wednesday":
+        case "Thursday":
+        case "Friday":
+            alert(`${isWeekendOrWeekday} is a weekday!`) :  
+            break
 
         case "Saturday":
-            isWeekendOrWeekday = "Saturday"
-            case "Sunday":
-                isWeekendOrWeekday = "Sunday"
-                alert(`${isWeekendOrWeekday} is a weekend!`)
-                break
+        case "Sunday":
+            alert(`${isWeekendOrWeekday} is a weekend!`)
+            break
     }
